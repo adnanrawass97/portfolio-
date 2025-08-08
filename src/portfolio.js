@@ -8,10 +8,12 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: false, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
+
+
 
 // Summary And Greeting Section
 
@@ -23,7 +25,7 @@ const illustration = {
 
 const greeting = {
   username: "Adnan Rawass",
-  title: "Hi all, I'm Adnan, Cybersecurity & AI Specialist",
+  title: "Adnan Rawass, expert in Responsible AI and Secure System Design.",
   subTitle: emoji(
     "Cybersecurity expert, AI governance enthusiast, and MLOps practitioner. Passionate about securing AI systems and ensuring ethical AI deployment."
   ),

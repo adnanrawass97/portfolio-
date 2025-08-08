@@ -15,17 +15,21 @@
 
 .greeting-main {
   display: flex;
+
 }
+
+
 
 .subTitle {
   color: $subTitle !important;
 }
 
-.greeting-main {
-  display: flex;
-}
+
 
 .greeting-main > * {
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center; 
   flex: 1;
   margin-bottom: 30px;
 }
@@ -88,6 +92,12 @@
   100% {
     transform: rotate(0deg);
   }
+}
+.greeting-div img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* or cover depending on how you want it to fill */
+
 }
 
 /* Media Query */
