@@ -23,24 +23,20 @@ const illustration = {
 
 const greeting = {
   username: "Adnan Rawass",
-  title: "Hi all, I'm Adnan — Cybersecurity & AI Specialist",
+  title: "Hi all, I'm Adnan, Cybersecurity & AI Specialist",
   subTitle: emoji(
     "Cybersecurity expert, AI governance enthusiast, and MLOps practitioner. Passionate about securing AI systems and ensuring ethical AI deployment."
   ),
-  resumeLink: "https://drive.google.com/file/d/16W4YeQK04MtI9UJAaZYlrgqfX_ErVp5f/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/16W4YeQK04MtI9UJAaZYlrgqfX_ErVp5f/view?usp=drive_link",
   displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/adnanrawass97?tab=repositories",
+  linkedin: "https://www.linkedin.com/in/adnan-rawass-a9368b180/",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
