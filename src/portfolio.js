@@ -47,76 +47,63 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+ title: "What I do",
+  subTitle: "AI & CYBERSECURITY SPECIALIST FOCUSED ON SECURE, ETHICAL, AND INTELLIGENT SYSTEMS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build and deploy Machine Learning and Deep Learning models for real-world applications"),
+    emoji("⚡ Analyze and strengthen systems against cyber threats using intelligent detection techniques"),
+    emoji("⚡ Work with LLMs for natural language understanding, generation, and AI automation"),
+    emoji("⚡ Apply ISO/IEC 27001 & 42001 standards to ensure secure and responsible AI adoption"),
+    emoji("⚡ Design and audit AI governance frameworks for transparency, compliance, and ethical use")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  // 🧠 Artificial Intelligence & ML
+  {
+    skillName: "Machine Learning",
+    fontAwesomeClassname: "fas fa-robot"
+  },
+  {
+    skillName: "Deep Learning",
+    fontAwesomeClassname: "fas fa-brain"
+  },
+  {
+    skillName: "Large Language Models (LLMs)",
+    fontAwesomeClassname: "fas fa-language"
+  },
+
+  // 🔐 Cybersecurity
+  {
+    skillName: "Cybersecurity",
+    fontAwesomeClassname: "fas fa-shield-alt"
+  },
+  {
+    skillName: "Network Security",
+    fontAwesomeClassname: "fas fa-network-wired"
+  },
+  {
+    skillName: "Threat Detection",
+    fontAwesomeClassname: "fas fa-user-secret"
+  },
+
+  // 📜 Governance & Compliance
+  {
+    skillName: "ISO/IEC 27001",
+    fontAwesomeClassname: "fas fa-lock"
+  },
+  {
+    skillName: "ISO/IEC 42001",
+    fontAwesomeClassname: "fas fa-balance-scale"
+  },
+  {
+    skillName: "AI Governance",
+    fontAwesomeClassname: "fas fa-gavel"
+  }
+],
+display: true
 };
 
 // Education Section
